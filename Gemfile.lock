@@ -26,6 +26,8 @@ GEM
     watir (6.16.5)
       regexp_parser (~> 1.2)
       selenium-webdriver (~> 3.6)
+    watir-scroll (0.4.0)
+      watir (>= 6.0)
     yml_reader (0.7)
 
 PLATFORMS
@@ -34,6 +36,7 @@ PLATFORMS
 DEPENDENCIES
   page-object
   watir
+  watir-scroll
 
 BUNDLED WITH
    1.16.2
